@@ -23,7 +23,7 @@ subtitle: "A free HTML5 agency template"
 # root of your server.
 # baseurl: "/" # the subpath of your site
 url: "http://snudm.github.io/fintext.github.io" # the base hostname & protocol for your site
-baseurl: "/fintext.github.io"
+baseurl: "/fintext"
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 
