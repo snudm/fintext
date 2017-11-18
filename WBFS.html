@@ -1,0 +1,40 @@
+---
+layout: page
+title: WBFS
+subtitle: Word Based Firm Search
+permalink: /wbfs/
+---
+<!-- Slider Start -->
+<section id="global-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>{{ page.title }}</h1>
+          <p>{{ page.subtitle }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="wbfs" class="feature">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-6">
+      <h2>What is {{ page.title }}? </h2>
+      <p>Pick a keyword, and then you’ll be provided with a handful of stocks of similar industry domain from which you can choose for your portfolio or research! Our Word-Based-Firm-Search, WBFS, allows you to look up firms by the keyword of your interest.</p>
+      <p>WBFS delivers a unique service, in coupling with BTIC, that is rarely available in any other industry classification systems. Text mining techniques we employ to process corporate disclosures in order to construct BTIC allow us to determine the distance relationships among the firms given select keywords.</p>
+      <p>Check out our prototype results, provided for select keywords mapped to the S&P500 firms (as of Jan. 01, 2016)! Contact ft@dm.snu.ac.kr for greater detail.<p>
+    </div>
+  </div>
+</div>
+</section>
+{% for post in site.categories.WBFS %}
+<div class="post-area">
+  <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
+  <p class="post-date">{{ post.date | date_to_long_string }}</p>
+  <p>
+    {{ post.content | strip_html | truncatewords: 50 }}
+  </p>
+</div>
+{% endfor %}
