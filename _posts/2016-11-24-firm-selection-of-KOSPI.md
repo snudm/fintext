@@ -2,10 +2,10 @@
 layout: post
 title: Keyword List of KOSPI Firms
 subtitle: Jekyll is a blog-aware, static site generator in Ruby https://jekyllrb.com
-date: 2016-11-25
+date: 2016-11-24
 author: Admin
 categories:
-  - WBFS
+  - FirmSelection
 ---
 
 <div class="col-sm-12">

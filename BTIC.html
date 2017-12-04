@@ -1,8 +1,7 @@
 ---
 layout: page
-title: BTIC
-subtitle: Business Text Industry Classification
-permalink: /btic/
+title: Products
+permalink: /products
 ---
 <!-- Slider -->
 <section id="global-header">
@@ -11,19 +10,84 @@ permalink: /btic/
       <div class="col-md-12">
         <div class="block">
           <h1>{{ page.title }}</h1>
-          <p>{{ page.subtitle }}</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Introduction of BTIC -->
-<section id="btic" class="feature">
+<!-- News Curation -->
+<section id="news_curation" class="service">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2> News Curation </h2>
+      </div>
+    </div>
+</section>
+<!--section id="news_curation" class="feature">
 <div class="container">
   <div class="row">
     <div class="col-md-6 col-md-offset-6">
-      <h2>What is {{ page.title }}? </h2>
+      <h2> News Curation </h2>
+      <p>What are the keywords that best describe the stock of your interest? Our Word-Based-Firm-Search, WBFS, will help you represent the stocks of your choice with a set of descriptive keywords!</p>
+      <p> WBFS delivers a unique service, in coupling with BTIC, that is rarely available in any other industry classification systems. Text mining techniques we employ to process corporate disclosures in order to construct BTIC allow us to determine the distance relationships among the firms and select keywords.</p>
+      <p>Check out our prototype results, provided for S&P500 firms (as of Jan. 01, 2016), mapped to select representative keywords. Contact ft@dm.snu.ac.kr for greater detail.</p>
+    </div>
+  </div>
+</div>
+</section-->
+{% for post in site.categories.NewsCuration %}
+<div class="post-area">
+  <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
+</div>
+{% endfor %}
+
+
+<!-- Firm Description-->
+<section id="firm_description" class="feature">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-6">
+      <h2> Firm Description </h2>
+      <p>What are the keywords that best describe the stock of your interest? Our Word-Based-Firm-Search, WBFS, will help you represent the stocks of your choice with a set of descriptive keywords!</p>
+      <p> WBFS delivers a unique service, in coupling with BTIC, that is rarely available in any other industry classification systems. Text mining techniques we employ to process corporate disclosures in order to construct BTIC allow us to determine the distance relationships among the firms and select keywords.</p>
+      <p>Check out our prototype results, provided for S&P500 firms (as of Jan. 01, 2016), mapped to select representative keywords. Contact ft@dm.snu.ac.kr for greater detail.</p>
+    </div>
+  </div>
+</div>
+</section>
+{% for post in site.categories.FirmDescription %}
+<div class="post-area">
+  <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
+</div>
+{% endfor %}
+
+<!-- Firm Selection-->
+<section id="firm_selection" class="feature">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-6">
+      <h2> Firm Selection </h2>
+      <p>Pick a keyword, and then you’ll be provided with a handful of stocks of similar industry domain from which you can choose for your portfolio or research! Our Word-Based-Firm-Search, WBFS, allows you to look up firms by the keyword of your interest.</p>
+      <p>WBFS delivers a unique service, in coupling with BTIC, that is rarely available in any other industry classification systems. Text mining techniques we employ to process corporate disclosures in order to construct BTIC allow us to determine the distance relationships among the firms given select keywords.</p>
+      <p>Check out our prototype results, provided for select keywords mapped to the S&P500 firms (as of Jan. 01, 2016)! Contact ft@dm.snu.ac.kr for greater detail.<p>
+    </div>
+  </div>
+</div>
+</section>
+{% for post in site.categories.FirmSelection %}
+<div class="post-area">
+  <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
+</div>
+{% endfor %}
+
+<!-- Introduction of Industry Classification -->
+<section id="industry_classification" class="feature">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-6">
+      <h2> Industry Classification </h2>
       <p>Manage your portfolio, conduct your market research, or enrich your sector analysis with our BTIC! We introduce a new industry classification system, Business Text Industry Clustering – BTIC – to replace the existing ones. BTIC applies text mining techniques on corporate disclosures in order to segment securities into groups with similar “business identities”.</p>
       <p>We exploit the business section of the form 10-Ks and cluster publicly traded equity securities in a hierarchical manner. Our automated process makes it fast to implement industry classification fit to your need, while its methodology allows for interpretability of the classification result in a rich context. With BTIC, you will now be able to show your clients the keywords on which your portfolio design is based; to choose a benchmark stock that is truly close to your portfolio in terms of their business identities; or, simply to explore why a stock has been placed in the corresponding group by looking at the list of similar words and stocks. BTIC does not only provide you with “which” groupings should be used in your portfolio management or research, but also “why” these groupings make sense.</p>
     </div>
@@ -31,47 +95,16 @@ permalink: /btic/
 </div>
 </section>
 
-
 <!-- BTIC-S&P500 -->
-<section id="btic-sp500" class="service">
-  <div class="container">
-    <div class="row">
-      <div class="section-title">
-        <h2>BTIC-S&P500</h2>
-        <br>
-        <p>Check out our prototype results, prepared for the S&P500 firms (as of Jan. 01, 2016)!</p>
-        <p>Contact ft@dm.snu.ac.kr for greater detail.</p>
-      </div>
-      <a href="/fintext.github.io/papers/AutomaticClassificationOfSecurities_YangLeeChoCho_2016_TechReport.pdf" class="btn btn-view-works">Download Paper</a>
-    </div>
-</section>
 {% for post in site.categories.BTIC-SP500 %}
 <div class="post-area">
   <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
-  <p class="post-date">{{ post.date | date_to_long_string }}</p>
-  <p>
-    {{ post.content | strip_html | truncatewords: 50 }}
-  </p>
 </div>
 {% endfor %}
 
-<!-- BTIC-KOSPI -->
-<section id="btic-kospi" class="service">
-  <div class="container">
-    <div class="row">
-      <div class="section-title">
-        <h2>BTIC-KOSPI</h2>
-        <p></p>
-      </div>
-      <a href="/fintext.github.io/papers/btic_paper.pdf" class="btn btn-view-works">Download Paper</a>
-    </div>
-</section>
 {% for post in site.categories.BTIC-KOSPI %}
 <div class="post-area">
   <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
-  <p class="post-date">{{ post.date | date_to_long_string }}</p>
-  <p>
-    {{ post.content | strip_html | truncatewords: 50 }}
-  </p>
 </div>
 {% endfor %}
+

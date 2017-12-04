@@ -61,6 +61,14 @@ a:active {
   font-style: italic;
   color: #666;
 }
+.section-body {
+  display: flex;
+}
+.section-body p {
+  font-family: 'Volkhov', serif;
+  font-style: italic;
+  color: #666;
+}
 /*--
 	Header Start
 --*/
@@ -847,4 +855,14 @@ footer .footer-manu ul li a:hover {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+/* custom*/
+.data-wrapper {
+  float: none !important;
+  margin: 0 auto !important;
+
+}
+.data-img {
+  width:100%;
 }
