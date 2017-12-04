@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Keyword List of S&P500 Firms
+title: Firm Description for S&P500
 subtitle: Jekyll is a blog-aware, static site generator in Ruby https://jekyllrb.com
 date: 2016-11-25
 author: Admin

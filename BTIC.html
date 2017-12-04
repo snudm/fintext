@@ -16,32 +16,6 @@ permalink: /products
   </div>
 </section>
 
-<!-- News Curation -->
-<section id="news_curation" class="service">
-  <div class="container">
-    <div class="row">
-      <div class="section-title">
-        <h2> News Curation </h2>
-      </div>
-    </div>
-</section>
-<!--section id="news_curation" class="feature">
-<div class="container">
-  <div class="row">
-    <div class="col-md-6 col-md-offset-6">
-      <h2> News Curation </h2>
-      <p>What are the keywords that best describe the stock of your interest? Our Word-Based-Firm-Search, WBFS, will help you represent the stocks of your choice with a set of descriptive keywords!</p>
-      <p> WBFS delivers a unique service, in coupling with BTIC, that is rarely available in any other industry classification systems. Text mining techniques we employ to process corporate disclosures in order to construct BTIC allow us to determine the distance relationships among the firms and select keywords.</p>
-      <p>Check out our prototype results, provided for S&P500 firms (as of Jan. 01, 2016), mapped to select representative keywords. Contact ft@dm.snu.ac.kr for greater detail.</p>
-    </div>
-  </div>
-</div>
-</section-->
-{% for post in site.categories.NewsCuration %}
-<div class="post-area">
-  <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
-</div>
-{% endfor %}
 
 
 <!-- Firm Description-->
@@ -108,3 +82,20 @@ permalink: /products
 </div>
 {% endfor %}
 
+<!-- News Curation -->
+<section id="news_curation" class="feature">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-6">
+      <h2> News Curation </h2>
+      <p>Just because a firm’s name appears in the article, that does not necessarily mean that the content of the article is actually related to the subject firm. The combination of Doc2vec learning and our news curation algorithm allows us to look-up relevant firms from the given article without actually matching firm names.</p> 
+      <p> Our approach allows firms to be related to a given article based on the similarities to the keywords extracted from the article, hence incorporating contextual information in the the matching process.</p>
+    </div>
+  </div>
+</div>
+</section>
+{% for post in site.categories.NewsCuration %}
+<div class="post-area">
+  <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
+</div>
+{% endfor %}

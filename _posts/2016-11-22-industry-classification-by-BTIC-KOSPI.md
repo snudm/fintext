@@ -2,7 +2,7 @@
 layout: post
 title: Industry Classification of KOSPI
 subtitle: Jekyll is a blog-aware, static site generator in Ruby https://jekyllrb.com
-date: 2016-11-25
+date: 2016-11-22
 author: Admin
 categories:
   - BTIC-KOSPI

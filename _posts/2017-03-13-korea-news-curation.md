@@ -16,8 +16,8 @@ categories:
 
 <br>
 <div class="col-sm-12">
-<h3> 2. 일동제약 개발 제휴 美 백혈병치료제, 임상 3상 결과 발표</h3>
-<a href="http://www.yonhapnews.co.kr/bulletin/2017/03/09/0200000000AKR20170309066200017.HTML?input=1195m">기사 원문</a>
+<h3> 2. 삼화페인트, 유가증권시장 공시 우수법인 선정</h3>
+<a href="http://www.edaily.co.kr/news/news_detail.asp?newsId=03975366615861680&mediaCodeNo=257">기사 원문</a>
 <br>
 <br>
 <img src="{{site.baseurl}}/img/korea_news_curation_2.jpg">
@@ -25,7 +25,7 @@ categories:
 
 <br>
 <div class="col-sm-12">
-<h3> 2. 일동제약 개발 제휴 美 백혈병치료제, 임상 3상 결과 발표</h3>
+<h3> 3. 일동제약 개발 제휴 美 백혈병치료제, 임상 3상 결과 발표</h3>
 <a href="http://www.yonhapnews.co.kr/bulletin/2017/03/09/0200000000AKR20170309066200017.HTML?input=1195m">기사 원문</a>
 <br>
 <br>
