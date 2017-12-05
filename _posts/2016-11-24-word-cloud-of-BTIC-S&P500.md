@@ -42,32 +42,32 @@ categories:
 
 <h3> Brand Cloud </h3>
 <div class="col-md-6 col-sm-12">
-  <img src= "{{site.baseurl}}/img/word_clouds/cluster_01.png">
+  <img src= "{{site.baseurl}}/img/word_clouds/Securities/cluster_01.png">
 </div>
 <div class="col-md-6 col-sm-12">
-  <img src= "{{site.baseurl}}/img/word_clouds/cluster_02.png">
+  <img src= "{{site.baseurl}}/img/word_clouds/Securities/cluster_02.png">
 </div>
 <div class="col-md-6 col-sm-12">
-  <img src= "{{site.baseurl}}/img/word_clouds/cluster_03.png">
+  <img src= "{{site.baseurl}}/img/word_clouds/Securities/cluster_03.png">
 </div>
 <div class="col-md-6 col-sm-12">
-  <img src= "{{site.baseurl}}/img/word_clouds/cluster_04.png">
+  <img src= "{{site.baseurl}}/img/word_clouds/Securities/cluster_04.png">
 </div>
 <div class="col-md-6 col-sm-12">
-  <img src= "{{site.baseurl}}/img/word_clouds/cluster_05.png">
+  <img src= "{{site.baseurl}}/img/word_clouds/Securities/cluster_05.png">
 </div>
 <div class="col-md-6 col-sm-12">
-  <img src= "{{site.baseurl}}/img/word_clouds/cluster_06.png">
+  <img src= "{{site.baseurl}}/img/word_clouds/Securities/cluster_06.png">
 </div>
 <div class="col-md-6 col-sm-12">
-  <img src= "{{site.baseurl}}/img/word_clouds/cluster_07.png">
+  <img src= "{{site.baseurl}}/img/word_clouds/Securities/cluster_07.png">
 </div>
 <div class="col-md-6 col-sm-12">
-  <img src= "{{site.baseurl}}/img/word_clouds/cluster_08.png">
+  <img src= "{{site.baseurl}}/img/word_clouds/Securities/cluster_08.png">
 </div>
 <div class="col-md-6 col-sm-12">
-  <img src= "{{site.baseurl}}/img/word_clouds/cluster_09.png">
+  <img src= "{{site.baseurl}}/img/word_clouds/Securities/cluster_09.png">
 </div>
 <div class="col-md-6 col-sm-12">
-  <img src= "{{site.baseurl}}/img/word_clouds/cluster_10.png">
+  <img src= "{{site.baseurl}}/img/word_clouds/Securities/cluster_10.png">
 </div>
